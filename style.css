@@ -12,15 +12,14 @@ body {
 }
 
 .main-page {
-    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/main.png?raw=true');
-}
+    background-image: url('images/main.png');}
 
 .scales-quiz {
-    background-image: url('https://raw.githubusercontent.com/rakloze/music-trivia/master/images/scales.webp');
+    background-image: url('images/scales.webp');
 }
 
 .chords-quiz {
-    background-image: url('https://raw.githubusercontent.com/rakloze/music-trivia/master/images/chords.webp');
+    background-image: url('images/chords.webp');
 }
 
 .container {
