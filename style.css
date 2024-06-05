@@ -12,15 +12,15 @@ body {
 }
 
 .main-page {
-    background-image: url('C:/Users/User/Desktop/קודים ישנים/Major7, Dominant 7, and Minor7 scales/images/main.png');
+    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/main.png');
 }
 
 .scales-quiz {
-    background-image: url('C:/Users/User/Desktop/קודים ישנים/Major7, Dominant 7, and Minor7 scales/images/scales.webp');
+    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/scales.webp');
 }
 
 .chords-quiz {
-    background-image: url('C:/Users/User/Desktop/קודים ישנים/Major7, Dominant 7, and Minor7 scales/images/chords.webp');
+    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/chords.webp');
 }
 
 .container {
