@@ -1,16 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: cursive;
     font-weight: 300;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    font-size: x-large;
 }
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6); 
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    max-height: 80vh; /* Ensure content fits within viewport */
+    overflow-y: auto; /* Scroll within container if necessary */
+}
+
 
 .main-page {
     background-image: url('images/main.png');}
@@ -21,14 +36,6 @@ body {
 
 .chords-quiz {
     background-image: url('images/chords.webp');
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.6); /* 60% transparent background */
-    padding: 10%;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    text-align: center;
 }
 
 h1 {
