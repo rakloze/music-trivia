@@ -12,15 +12,15 @@ body {
 }
 
 .main-page {
-    background-image: url('https://cdn.discordapp.com/attachments/1058133874900729988/1247899474836328549/haone_il_imagination_of_html_command_line_26ced832-2f85-4a24-967b-5abfdad4edc8.png');
+    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/main.png?raw=true');
 }
 
 .scales-quiz {
-    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/scales.webp');
+    background-image: url('https://raw.githubusercontent.com/rakloze/music-trivia/master/images/scales.webp');
 }
 
 .chords-quiz {
-    background-image: url('https://github.com/rakloze/music-trivia/blob/master/images/chords.webp');
+    background-image: url('https://raw.githubusercontent.com/rakloze/music-trivia/master/images/chords.webp');
 }
 
 .container {
