@@ -22,7 +22,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     text-align: center;
-    max-height: 80vh; /* Ensure content fits within viewport */
+    max-height: 50vh; /* Ensure content fits within viewport */
     overflow-y: auto; /* Scroll within container if necessary */
 }
 
