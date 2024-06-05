@@ -3,31 +3,27 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevent scrolling */
-}
-
-
-body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body {
     font-family: cursive;
+    font-weight: 300;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
-
-.container {
-    background-color: rgba(255, 255, 255, 0.6); 
-    padding: 10%;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    text-align: center;
-    max-height: 50vh; /* Ensure content fits within viewport */
-    overflow-y: auto; /* Scroll within container if necessary */
-}
-
 
 .main-page {
-    background-image: url('images/main.png');}
+    background-image: url('images/main.png');
+}
 
 .scales-quiz {
     background-image: url('images/scales.webp');
@@ -37,17 +33,28 @@ body {
     background-image: url('images/chords.webp');
 }
 
-h1 {
-    color: #333333;
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5%; /* Reduce padding to fit more content */
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 90vw; /* Ensure container fits within viewport width */
+    max-height: 90vh; /* Ensure container fits within viewport height */
+    overflow-y: auto; /* Allow scrolling within the container if necessary */
+}
+
+h1, h2 {
+    margin: 10px 0; /* Reduce margin for headings */
 }
 
 #game-selection, #quiz {
-    margin-bottom: 15%;
+    margin-bottom: 5%; /* Reduce margin to fit more content */
 }
 
 .choice {
     display: block;
-    margin: 10% 0;
+    margin: 5% 0; /* Reduce margin to fit more content */
 }
 
 button, .back {
@@ -71,15 +78,16 @@ button:hover, .back:hover {
     background-color: #772828;
 }
 
-#feedbackCorrect {
+#feedbackCorrect, #feedbackWrong {
     margin-top: 10px;
     font-weight: bold;
+}
+
+#feedbackCorrect {
     color: lightgreen;
 }
 
 #feedbackWrong {
-    margin-top: 10px;
-    font-weight: bold;
     color: rgb(172, 30, 30);
 }
 
