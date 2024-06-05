@@ -1,0 +1,83 @@
+body {
+    font-family: cursive;
+    font-weight: 300;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-page {
+    background-image: url('C:/Users/User/Desktop/קודים ישנים/Major7, Dominant 7, and Minor7 scales/images/main.png');
+}
+
+.scales-quiz {
+    background-image: url('C:/Users/User/Desktop/קודים ישנים/Major7, Dominant 7, and Minor7 scales/images/scales.webp');
+}
+
+.chords-quiz {
+    background-image: url('C:/Users/User/Desktop/קודים ישנים/Major7, Dominant 7, and Minor7 scales/images/chords.webp');
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6); /* 60% transparent background */
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+}
+
+#game-selection, #quiz {
+    margin-bottom: 15%;
+}
+
+.choice {
+    display: block;
+    margin: 10% 0;
+}
+
+button, .back {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover, .back:hover {
+    background-color: #45a049;
+}
+
+.back {
+    background-color: #df0e0e;
+}
+
+.back:hover {
+    background-color: #772828;
+}
+
+#feedbackCorrect {
+    margin-top: 10px;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+#feedbackWrong {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(172, 30, 30);
+}
+
+#score {
+    font-size: 1.2em;
+    color: #333333;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main-page">
+    <div class="container">
+        <div id="game-selection">
+            <h1>Welcome to the Music Quiz</h1>
+            <button onclick="startGame('scale')">Start Scales Quiz</button>
+            <button onclick="startGame('chords')">Start Chords Quiz</button>
+        </div>
+        <div id="quiz" style="display:none;">
+            <h2 id="question"></h2>
+            <div id="choices"></div>
+            <button onclick="submitAnswer()">Submit Answer</button>
+            <div id="feedback"></div>
+        </div>
+        <div id="score" style="display:none;">Score: 0/0</div>
+        <div id="correctStreak" style="display:none;">Correct Streak: 0</div>
+        <button class="back" onclick="back()">Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
